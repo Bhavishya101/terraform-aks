@@ -1,2 +1,5 @@
 # terraform-aks
-Terraform assignment
+Perform below commands
+
+A) Terraform Init
+B) Terraform apply
