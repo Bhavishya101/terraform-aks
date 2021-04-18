@@ -1,0 +1,9 @@
+resource_group_name = "stage_aks_terraform_rg"
+location            = "East US"
+cluster_name        = "stage-terraform-aks"
+kubernetes_version  = "1.18.14"
+system_node_count   = 1
+node_resource_group = "stage_aks_terraform_resources_rg"
+namespace           = "stage"
+prefix              = "stg"
+#subscription        = "xxxxx"
